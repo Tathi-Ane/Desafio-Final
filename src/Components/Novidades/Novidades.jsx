@@ -1,23 +1,22 @@
-import cafe from "../../assets/images/grao.png"
-import {Section} from "./style"
+import grao from "../../assets/images/grao.png"
 
-export default function Novidades () {
+import { Section, Div, Button} from "./style";
+
+export default function Novidades() {
     return (
+
         <Section>
-             <img src={cafe} alt="" />
-            
-            <h3> Preparação </h3>
-            <h2>Níveis de Torra</h2>
-            <p>Escolha sua Torra Starbucks: 
-                Torra Clara
-                Torra Média
-                Torra Escura
+            <img src={grao} alt="graodecafe" />
 
-                Cada Torra Starbucks de acordo com seu gosto!
+            <Div>
 
-            </p>
+            <h3>PREPARAÇÃO</h3>
+            <h2>Níveis de torra</h2>
+            <p>Qual a torra que prefere? Starbucks® Torra Clara, Torra Média ou Torra Escura? Estas sãos as torras que fazem parte dos níveis de torra Starbucks®</p>
 
+            <Button>SAIBA MAIS</Button>
 
+            </Div>
         </Section>
-    )
+    );
 }

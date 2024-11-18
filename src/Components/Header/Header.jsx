@@ -1,10 +1,10 @@
 import {Link} from "react-router-dom";
 import logo from "../../assets/images/logo.png";
-import { HeaderStyled } from "./style";
+import { HeaderStyle } from "./style.jsx";
 
 export default function Header () {
     return (
-        <HeaderStyled >
+        <HeaderStyle > 
             <img src={logo} alt="logomarca" />
             {/*<img src="../../assets/images/logo 2.png" alt="logomarca" />*/}
             <nav>
@@ -23,6 +23,7 @@ export default function Header () {
 
                 </ul>
             </nav>
-        </HeaderStyled >
+
+        </HeaderStyle >
     );
 };
