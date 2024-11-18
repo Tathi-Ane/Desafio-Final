@@ -1,7 +1,7 @@
 import loja from "../../assets/images/loja.png"
 
 
-import { Section, Div, Button } from "./style"
+import { Section, Div, Button } from "./style";
 
 export default function Sobre() {
     return (
@@ -23,5 +23,5 @@ export default function Sobre() {
 
             </Div>
         </Section>
-    )
+    );
 }

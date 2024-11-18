@@ -1,6 +1,4 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import {} from 'styled-components';
-
 import Header from "./Components/Header/Header"
 import Sobre from "./Components/Sobre/Sobre"
 import Home from "./Components/Home/Home"
@@ -11,13 +9,12 @@ export default function App () {
     <>
     <BrowserRouter>
     <Header/>
-    <Routes>
+        <Routes>
+         <Route path="/" element={<Home/>}/>
+         <Route path="/novidades" element={<Novidades/>}/>
+         <Route path="/sobre" element={<Sobre/>}/>
+        </Routes>
 
-    <Route/>
-    <Route/>
-    <Route/>
-
-    </Routes>
     </BrowserRouter>
     </>
   );

@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 import logo from "../../assets/images/logo.png";
-import { HeaderStyled } from "./styled";
+import { HeaderStyled } from "./style";
 
 export default function Header () {
     return (
@@ -24,5 +24,5 @@ export default function Header () {
                 </ul>
             </nav>
         </HeaderStyled >
-    )
-}
+    );
+};
