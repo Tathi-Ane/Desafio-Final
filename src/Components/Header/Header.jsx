@@ -5,9 +5,10 @@ import { HeaderStyle } from "./style.jsx";
 export default function Header () {
     return (
         <HeaderStyle > 
+          <nav>
             <img src={logo} alt="logomarca" />
             {/*<img src="../../assets/images/logo 2.png" alt="logomarca" />*/}
-            <nav>
+            
                 <ul>
           <li>
             <Link to="/">Home</Link>

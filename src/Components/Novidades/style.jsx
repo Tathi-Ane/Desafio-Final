@@ -22,7 +22,7 @@ h2{
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 20px;
     font-family: "Poppins", serif;
     color: #ffffff
   }
