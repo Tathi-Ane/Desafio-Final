@@ -20,30 +20,32 @@ section {
 h2{
     font-weight: 300;
     font-size: 2.5rem;
-    font-family: "Inter";
+    font: 50px "Inter", sans-serif;
 
 
 }
 
 h1 {
-    font-family: "Poppins";
     font-weight: 300;
     font-size: 2.5rem;
-    
-    
+    font: 50px "Poppins", sans-serif;
+
+
     span {
       color: #037143;
       display: inline;
-      font: 700 60px "Poppins", sans-serif;
+      font: 700 50px "Poppins", sans-serif;
     }
   }
 
   #texto2 { width: 400px; }
 
 p {
+    font-family: "Poppins", sans-serif;
     font-size: 1.1rem;
-    font-family: "Poppins", serif;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+    height: 50%;
+    
 }
 
 
@@ -94,7 +96,7 @@ p {
     
     
     height: 5vh;
-    font: "Inter", sans-serif;
+    font: 700 15px "Inter", sans-serif;
 
    
     &:hover {

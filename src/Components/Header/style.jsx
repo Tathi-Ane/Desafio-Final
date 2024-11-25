@@ -24,17 +24,20 @@ ul{
     justify-content: flex-end;
 
 
+
 li{
     margin: 0;
     padding-right: 3vw;
+    
+    
 }
 
 a  {
       text-decoration: none;
       color: #1E3932;
       font-size: 1.5rem;
-      font-family: Poppins;
       font-weight: 500;
+      font: 95% "Poppins", sans-serif;
 
 }
 

@@ -6,7 +6,7 @@ export default function Novidades() {
     return (
 
         <Section>
-            <img src={grao} alt="graodecafe" />
+           
 
             <Div>
 
@@ -17,6 +17,11 @@ export default function Novidades() {
             <Button>SAIBA MAIS</Button>
 
             </Div>
+            <div>
+                
+            <img src={grao} alt="graodecafe" />
+
+            </div>
         </Section>
     );
 }

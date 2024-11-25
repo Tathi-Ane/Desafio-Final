@@ -6,30 +6,33 @@ align-items: center;
 justify-content: space-around;
 height: 80vh;
 color:  #fff;
-padding: 0 5%;
+padding: 0 5% 0 4%;
 background-color: #1E3932;
 `
 
 export const Div = styled.div`
-width: 30vw;
-
 
 width: 40%;
+
 
 h2{
     font-size: 40px;
     margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+    
 }
 
 h3 {
+    font-family: "Inter", serif;  
     font-size: 20px;
-    font-family: "Poppins", serif;
     color: #ffffff
   }
 
   p{
-    font-size: 30px;
+    font-size: 20px;
     line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+
   }
 
 

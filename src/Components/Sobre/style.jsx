@@ -15,18 +15,20 @@ width: 30vw;
 h2{
     font-size: 40px;
     margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
 }
 
 h3{
     font-size: 20px;
-    font-family: "Poppins", serif;
+    font-family: "Inter", serif;
     
     
 }
 
 p{
-    font-size: 30px;
+    font-size: 20px;
     line-height: 1.5;
+    font-family: "Poppins", sans-serif;
 }
 
 `;
